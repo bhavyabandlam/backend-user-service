@@ -17,3 +17,9 @@ app.get("/health", (req, res) => {
 app.listen(PORT, () =>
   console.log(`User Service running on port ${PORT}`)
 );
+module.exports = {
+  connect: () => {
+    console.log("User Service DB connected");
+  }
+};
+
