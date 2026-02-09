@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_REGION = "us-east-1"
         ECR_REPO = "user-service"
-        ECS_CLUSTER = "dev_cluster"
+        ECS_CLUSTER = "dev_cluster1"
         ECS_SERVICE = "user-service-task-service-1t1xpq3y"
         IMAGE_TAG = "${BUILD_NUMBER}"
         AWS_ACCOUNT_ID = "600696639588"
