@@ -4,8 +4,8 @@ pipeline {
     environment {
         AWS_REGION = "us-east-1"
         ECR_REPO = "user-service"
-        ECS_CLUSTER = "dev_cluster_new"
-        ECS_SERVICE = "user-service-new-service-ics2kwmq"
+        ECS_CLUSTER = "dev_cluster2"
+        ECS_SERVICE = "user-service-new-service-80jn8jug"
         IMAGE_TAG = "${BUILD_NUMBER}"
         AWS_ACCOUNT_ID = "600696639588"
         ECR_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
